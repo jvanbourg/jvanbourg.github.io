@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gambit Group</title>
+    <title>Landing Page</title>
     <style>
         @font-face {
             font-family: 'Horizon';
@@ -25,12 +25,20 @@
             color: #FF8700; /* Porsche Orange */
             font-weight: bold;
             text-align: center;
-            margin-top: 40px;
+            margin-top: 60px; /* Increase this value to move the text down */
             text-shadow: 
                 0 0 3px #000,  /* Top-left */
                 0 0 3px #000,  /* Top-right */
                 0 0 3px #000,  /* Bottom-left */
                 0 0 3px #000;  /* Bottom-right */
+        }
+
+        /* Media query for mobile devices */
+        @media (max-width: 600px) {
+            .header-text {
+                font-size: 32px; /* Adjust the font size for smaller screens */
+                margin-top: 20px; /* Adjust the margin for smaller screens */
+            }
         }
     </style>
 </head>
